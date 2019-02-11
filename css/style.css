@@ -1,0 +1,117 @@
+#commonSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+#commonSection .menuPart {
+  width: 200px;
+  margin-left: -200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background-color: #74487D;
+}
+
+#commonSection .menuPart .topPart {
+  background-color: #64257D;
+}
+
+#commonSection .menuPart .topPart .sidebarTitle {
+  font-size: 32px;
+  padding: 10px;
+  color: #fff;
+}
+
+#commonSection .menuPart .bottomPart ul {
+  padding: 10px;
+}
+
+#commonSection .menuPart .bottomPart ul li {
+  list-style: none;
+  color: #fff;
+  margin-top: 5px;
+}
+
+#commonSection .newsPart {
+  width: 100%;
+}
+
+#commonSection .newsPart .newsHead {
+  vertical-align: baseline;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  background-color: #ddd;
+}
+
+#commonSection .newsPart .newsHead button {
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+
+#commonSection .newsPart .newsHead button span {
+  color: #777;
+}
+
+#commonSection .newsPart .news {
+  margin-top: 10px;
+}
+
+#commonSection .newsPart .news .newContainer {
+  width: 100%;
+}
+
+#commonSection .newsPart .news .newContainer .news-card .article-img {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+}
+
+#commonSection .newsPart .news .myNews {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  width: 100%;
+}
+
+#commonSection .newsPart .news .myNews img {
+  width: 100%;
+}
+
+#commonSection .newsPart .news .myNews .secondPart {
+  width: 100%;
+  padding: 5px;
+}
+
+#commonSection .newsPart .news .myNews .secondPart .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#commonSection .newsPart .news .myNews .secondPart .date span {
+  font-size: 10px;
+}
+
+#commonSection .newsPart .news .myNews .secondPart .head {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#commonSection .newsPart .news .myNews .secondPart .content {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=style.css.map */
